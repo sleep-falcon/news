@@ -1,0 +1,121 @@
+############################################################
+#
+# 用户微服务
+# web访问端口号  约定：8003
+#
+############################################################
+server:
+#  port: 8003
+  tomcat:
+    uri-encoding: UTF-8
+    max-swallow-size: -1  # tomcat默认大小2M，超过2M的文件不会被捕获，需要调整此处大小为100MB或者-1即可
+
+############################################################
+#
+# 配置项目信息
+#
+############################################################
+spring:
+  rabbitmq:
+    host: 172.16.53.132
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: imooc-news
+  profiles:
+    active: dev  #yml中配置文件的环境设置 dev.test,prod
+  application:
+    name: service-user
+  datasource: # 数据源的相关配置
+    type: com.zaxxer.hikari.HikariDataSource          # 数据源类型：HikariCP
+    driver-class-name: org.mariadb.jdbc.Driver          # mysql驱动
+    url: jdbc:mysql://localhost:3306/news-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    username: root
+    password: 2000127y
+    hikari:
+      connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 默认:30秒
+      minimum-idle: 5                 # 最小连接数
+      maximum-pool-size: 20           # 最大连接数
+      auto-commit: true               # 自动提交
+      idle-timeout: 600000            # 连接超时的最大时长（毫秒），超时则被释放（retired），默认:10分钟
+      pool-name: DateSourceHikariCP     # 连接池名字
+      max-lifetime: 1800000           # 连接的生命时长（毫秒），超时而且没被使用则被释放（retired），默认:30分钟 1800000ms
+      connection-test-query: SELECT 1
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  cloud:
+    stream:
+      bindings: #绑定通道和交换机
+        myOutput: #定义生产者的通道
+          #代码里构建的消息，交给底层mq的交换机
+          destination: streamExchange #自定义交换机的名字
+        myInput: #自定义消费者的通道
+          #消息从底层mq输入到消费端进行消费
+          destination: streamExchange #自定义交换机的名字
+          group: girls
+  zipkin:
+    sender:
+      #数据采集的传输通信方式
+      type: web #http形式
+  sleuth:
+    sampler:
+      probability: 1 #采样比例（0-1） 例：0.5代表一半的请求会采样
+
+
+
+
+  ############################################################
+  #
+  # mybatis 配置
+  #
+  ############################################################
+mybatis:
+  type-aliases-package: com.imooc.pojo          # 所有POJO类所在包路径
+  mapper-locations: classpath:mapper/*.xml      # mapper映射文件
+
+
+  ############################################################
+  #
+  # mybatis mapper 配置
+  #
+  ############################################################
+  # 通用 Mapper 配置
+mapper:
+  mappers: com.imooc.my.mapper.MyMapper
+  not-empty: false    # 在进行数据库操作的的时候，判断表达式 username != null, 是否追加 username != ''
+  identity: MYSQL
+  # 分页插件配置
+pagehelper:
+  helperDialect: mysql
+  supportMethodsArguments: true
+
+############################################################
+#
+# eureka配置信息
+#
+############################################################
+eureka:
+  client:
+    #所有微服务必须注册到eureka中
+    register-with-eureka: true
+    #从注册中心检索获得服务实例
+    fetch-registry: true
+    #单实例配置自己的服务地址，高可用集群贼配置多个地址
+    service-url:
+      defaultZone: http://eureka-cluster-7001:7001/eureka/, http://eureka-cluster-7002:7002/eureka/, http://eureka-cluster-7003:7003/eureka/
+
+hystrix:
+  command:
+    default:
+      circuitBreaker: # 配置断路器
+        enabled: true
+        requestVolumeThreshold: 10    # 触发熔断最小请求次数，默认：20
+        sleepWindowInMilliseconds: 10000    # 熔断后过几秒后尝试半开状态（请求重试），默认：5s
+        errorThresholdPercentage: 50  # 触发熔断的失败率，默认：50
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2000 #设置hystrix超时时间
+
+

@@ -1,0 +1,8 @@
+META-INF/spring-configuration-metadata.json
+com/imooc/files/services/UploadService.class
+com/imooc/files/FileResource.class
+com/imooc/files/services/impl/UploadServiceImpl.class
+com/imooc/files/GridFSConfig.class
+com/imooc/files/controller/FileUploadController.class
+com/imooc/files/controller/helloController.class
+com/imooc/files/application.class

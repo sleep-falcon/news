@@ -1,0 +1,43 @@
+############################################################
+#
+# 微服务网关服务zuul
+# web访问端口号  约定：7070
+#
+############################################################
+server:
+  port: 7070
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: spring-cloud-zuul-server
+  redis:
+    port: 6379
+    database: 0
+    password: 123456
+    host: 172.16.53.128
+
+
+#路由规则：http://[网关地址]:[端口号]/[prefix]/[微服务实例id]/[请求路径地址]
+zuul:
+  routes:
+    #由于路由ID与微服务实例ID相同，可以简化配置
+    service-article: /service-article/**
+#    service-article:                #配置微服务的路由ID，微服务的实例id
+#      path: /service-article/**   #请求路径，微服务前缀
+#      service-id: service-article    #请求转发的微服务实例id
+      #url: http://192.168.1.236:8001    #请求转发到指定微服务的ip
+  prefix: /api                        #请求前缀
+
+blackIp:
+  continueCounts: ${counts:10} #IP连续请求最大次数
+  timeInterval: ${interval:10} #ip判断的时间间隔（s）
+  limitTimes: ${times:15} #限制的时间（s）
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka-cluster-7001:7001/eureka/, http://eureka-cluster-7002:7002/eureka/, http://eureka-cluster-7003:7003/eureka/

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54059d2b-78f6-45a3-8b24-da4d2feda3fd" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/imooc-news-dev-service-article/src/main/java/com/imooc/article/controller/ArticlePortalController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2JFYrYIxFYXYBCoxkKEknzZrVDz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-search/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "a61c3f2d43e5192ce6cc8c780e9ff6cd",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imooc-news-dev-service-search/src/main/resources" />
+      <recent name="$PROJECT_DIR$/imooc-news-dev-service-user/src/main/java/com/imooc/user/stream" />
+      <recent name="$PROJECT_DIR$/spring-cloud-zuul-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring-cloud-config/src/main/resources" />
+      <recent name="$PROJECT_DIR$/imooc-news-dev-common/src/main/java/com/imooc/grace/result" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.imooc.admin.repository" />
+      <recent name="com.imooc.admin.reposito" />
+      <recent name="com.imooc.api" />
+      <recent name="com.imooc.utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.search" />
+      <recent name="com.imooc.config.controller" />
+      <recent name="com.imooc.config" />
+      <recent name="com.imooc.zuul.filters" />
+      <recent name="com.imooc.zuul.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.service-admin">
+    <configuration name="eureka1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="cloud" temporary="true">
+      <module name="spring-cloud-eureka-cluster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.eureka.application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service-admin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="service" temporary="true">
+      <module name="imooc-news-dev-service-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.admin.application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service-article-portal" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="service" temporary="true">
+      <module name="imooc-news-dev-service-article-html" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.article.html.application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.article.html.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service-article" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="service" temporary="true">
+      <module name="imooc-news-dev-service-article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.article.application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.article.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service-fs" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="service" temporary="true">
+      <module name="imooc-news-dev-service-fs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.files.application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.eureka1" />
+      <item itemvalue="Spring Boot.service-admin" />
+      <item itemvalue="Spring Boot.service-article-portal" />
+      <item itemvalue="Spring Boot.service-fs" />
+      <item itemvalue="Spring Boot.service-article" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.service-article" />
+        <item itemvalue="Spring Boot.service-article-portal" />
+        <item itemvalue="Spring Boot.eureka1" />
+        <item itemvalue="Spring Boot.service-fs" />
+        <item itemvalue="Spring Boot.service-admin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54059d2b-78f6-45a3-8b24-da4d2feda3fd" name="Changes" comment="" />
+      <created>1671675498323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671675498323</updated>
+      <workItem from="1671675499596" duration="93777000" />
+      <workItem from="1672873949416" duration="28170000" />
+      <workItem from="1673172430922" duration="8987000" />
+      <workItem from="1673315997875" duration="31000" />
+      <workItem from="1673316037361" duration="55819000" />
+      <workItem from="1674451590335" duration="57891000" />
+      <workItem from="1674867131063" duration="4827000" />
+      <workItem from="1675117308940" duration="6949000" />
+      <workItem from="1675340106319" duration="12338000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.integration:spring-integration-core" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:javax.validation:validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-stream" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.github.tobato.fastdfs.exception.FdfsServerException" package="com.github.tobato.fastdfs.exception" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

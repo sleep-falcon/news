@@ -1,0 +1,16 @@
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/stream/MyStreamChannel.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/services/impl/UserServiceImpl.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/userInfoController.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/services/impl/AppUserMngServiceImpl.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/application.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/services/impl/MyFansServiceImpl.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/AppUserMngController.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/mapper/FansMapper.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/MyFansController.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/passportController.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/controller/helloController.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/stream/MyStreamConsumer.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/mapper/AppUserMapper.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/services/MyFansService.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/services/AppUserMngService.java
+/Users/falcon/Desktop/spring-project/imooc-news-dev/imooc-news-dev/imooc-news-dev-service-user/src/main/java/com/imooc/user/services/UserService.java

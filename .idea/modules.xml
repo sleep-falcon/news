@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev.iml" filepath="$PROJECT_DIR$/imooc-news-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev-common/imooc-news-dev-common.iml" filepath="$PROJECT_DIR$/imooc-news-dev-common/imooc-news-dev-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev-model/imooc-news-dev-model.iml" filepath="$PROJECT_DIR$/imooc-news-dev-model/imooc-news-dev-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev-service-admin/imooc-news-dev-service-admin.iml" filepath="$PROJECT_DIR$/imooc-news-dev-service-admin/imooc-news-dev-service-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev-service-api/imooc-news-dev-service-api.iml" filepath="$PROJECT_DIR$/imooc-news-dev-service-api/imooc-news-dev-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev-service-article/imooc-news-dev-service-article.iml" filepath="$PROJECT_DIR$/imooc-news-dev-service-article/imooc-news-dev-service-article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev-service-article-html/imooc-news-dev-service-article-html.iml" filepath="$PROJECT_DIR$/imooc-news-dev-service-article-html/imooc-news-dev-service-article-html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev-service-fs/imooc-news-dev-service-fs.iml" filepath="$PROJECT_DIR$/imooc-news-dev-service-fs/imooc-news-dev-service-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev-service-search/imooc-news-dev-service-search.iml" filepath="$PROJECT_DIR$/imooc-news-dev-service-search/imooc-news-dev-service-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-news-dev-service-user/imooc-news-dev-service-user.iml" filepath="$PROJECT_DIR$/imooc-news-dev-service-user/imooc-news-dev-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-cluster/spring-cloud-eureka-cluster.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-cluster/spring-cloud-eureka-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul-server/spring-cloud-zuul-server.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul-server/spring-cloud-zuul-server.iml" />
+    </modules>
+  </component>
+</project>

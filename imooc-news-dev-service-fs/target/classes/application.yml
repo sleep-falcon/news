@@ -1,0 +1,59 @@
+############################################################
+#
+# 文件微服务
+# web访问端口号  约定：8004
+#
+############################################################
+server:
+#  port: 8004
+  tomcat:
+    uri-encoding: UTF-8
+    max-swallow-size: -1  # tomcat默认大小2M，超过2M的文件不会被捕获，需要调整此处大小为100MB或者-1即可
+
+############################################################
+#
+# 配置项目信息
+#
+############################################################
+spring:
+  profiles:
+    active: dev  #yml中配置文件的环境设置 dev.test,prod
+  application:
+    name: service-files
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      max-file-size: 512000 #请求的文件大小限制为500kbax
+      max-request-size: 512000
+  data:
+    mongodb:
+      uri: mongodb://root:2000127y@172.16.53.132:27017
+      database: news-dev
+
+############################################################
+#
+# fastdfs的配置信息
+#
+############################################################
+fdfs:
+  connect-timeout: 30 #连接时间
+  so-timeout: 30 #读取时间
+  tracker-list: 172.16.53.128:22122
+
+############################################################
+#
+# eureka配置信息
+#
+############################################################
+eureka:
+  client:
+    #所有微服务必须注册到eureka中
+    register-with-eureka: true
+    #从注册中心检索获得服务实例
+    fetch-registry: true
+    #单实例配置自己的服务地址，高可用集群贼配置多个地址
+    service-url:
+      defaultZone: http://eureka-cluster-7001:7001/eureka/, http://eureka-cluster-7002:7002/eureka/, http://eureka-cluster-7003:7003/eureka/
+
